@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <span class="subheader">
+                        <span class="subheader a">
                             <em>Autor: <?= h($post->author) ?></em>
                             <span class="right">
                                 <?= $this->Html->link(__('Editar'), ['action' => 'edit', $post->id]) ?>
